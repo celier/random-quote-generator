@@ -1,15 +1,13 @@
-body {
+  body {
   font-family: 'Roboto' ,Verdana, Arial, sans-serif;
   font-size: 15px;
-  
+  background-color: #313a44;
   }
 
 #main {   
-  background-color: #313;
   width: 600px;
-  height: 100%;
   margin: auto;
-  margin-top: 100px;
+  margin-top: 25vh;
   border-radius: 3px;
 }
 
@@ -17,18 +15,22 @@ body {
   padding: 20px;
   margin: 10px;
   color: #fff;
+  min-height: 300px;
+
   }
 
 #quote {
   font-weight: bold;
-  font-size: 2em;
+  font-size: 1.8em;
   font-style: italic;
+  min-height: 100px;
 }
 
-.quote-author {
+#quote-author {
   text-align: right;
-  font-size: 1.2em;
+  font-size: 1.4em;
   padding-bottom: 15px;
+  min-height: 50px;
 }
 
 #buttons-inline {
@@ -46,10 +48,16 @@ span.align-right {
 
 .fa-twitter {
  color: #fff;
+ padding: 5 0;
 }
 
 #quote-btn {
   font-size: 1.2em;
+  height: 40px;
+}
+
+#twitter-btn {
+ height: 40px;
 }
 
 .spacer {
